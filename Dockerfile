@@ -5,4 +5,6 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
-# docker build -t Dockerfile  
+# docker build -t Dockerfile 
+# docker rmi image name 
+# docker ps -a  
